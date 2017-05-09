@@ -1,0 +1,21 @@
+{
+  "name": "timeismoney",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "description": "Test task",
+  "main": "gulpfile.js",
+  "authors": [
+    "el.makaricheva"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/el-makaricheva/time-is-money",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ]
+}
