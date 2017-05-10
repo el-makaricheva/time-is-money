@@ -1,5 +1,10 @@
 @import 'reset';
 
+body {
+	text-align: center;
+	font-family: Open Sans, arial;
+}
+
 li {
 	list-style: none;
 }
@@ -61,7 +66,6 @@ header {
 					line-height: 19px;
 					padding: 40px 25px 42px;
 					border-bottom: 2px solid transparent;
-					font-family: Open Sans, arial;
 
 					&:hover {
 						color: #49cbcd;
@@ -76,4 +80,51 @@ header {
 
 main {
 	margin-top: 102px;
+	color: black;
+
+	#team {
+
+		h2 {
+			font-size: 40px;
+			padding-bottom: 100px;
+		}
+
+		ul {
+			&:after {
+				display: block;
+				content: '';
+				clear: both;
+			}
+
+			li {
+				float: left;
+				width: 25%;
+				padding: 0 20px;
+
+				.team-member {
+					background-color: #eeeef0;
+					width: 160px;
+					height: 160px;
+					border-radius: 100%;
+				  margin: 0 auto 50px;
+
+				  p {
+				  	color: #f46d6d;
+				  	font-size: 80px;
+				  	font-weight: bold;
+				  	padding-top: 25px;
+				  }
+				}
+
+				h3 {
+					font-size: 20px;
+				}
+
+				p {
+					font-size: 11px;
+					padding-bottom: 20px;
+				}
+			}
+		}
+	}
 }

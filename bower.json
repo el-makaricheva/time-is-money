@@ -1,7 +1,8 @@
 {
   "name": "timeismoney",
   "dependencies": {
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "slick-carousel": "^1.6.0"
   },
   "description": "Test task",
   "main": "gulpfile.js",
