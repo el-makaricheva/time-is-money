@@ -5,6 +5,8 @@
 		<title>Time isMoney</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="bower_components/swiper/dist/css/swiper.css"/>
 	</head>
@@ -15,14 +17,17 @@
 					<img src="img/logo.png" alt="Author">
 				</a>
 				<nav>
-					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="#header">Service</a></li>
-						<li><a href="#banner">Portfolio</a></li>
-						<li><a href="#team">Team</a></li>
-						<li><a href="#buy-now">Blog</a></li>
-						<li><a href="#footer">Contact</a></li>
-					</ul>
+					<div class="nav">
+						<i class="material-icons menu-mobile-control">menu</i>
+						<ul class="drop">
+							<li><a href="#banner">Home</a></li>
+							<li><a href="#banner">Service</a></li>
+							<li><a href="#banner">Portfolio</a></li>
+							<li><a href="#team">Team</a></li>
+							<li><a href="#buy-now">Blog</a></li>
+							<li><a href="#footer">Contact</a></li>
+						</ul>
+					</div>
 				</nav>
 			</div>
 		</header>
@@ -148,8 +153,8 @@
 						<div class="buy-button">
 							<button>Buy now</button>
 						</div>
-					</div>
-					<div class="account">
+					</div
+					><div class="account">
 						<div class="account-type">Pro</div>
 						<ul>
 							<li class="price">$10.01/ Month</li>
@@ -163,8 +168,8 @@
 						<div class="buy-button">
 							<button>Buy now</button>
 						</div>
-					</div>
-					<div class="account">
+					</div
+					><div class="account">
 						<div class="account-type">Premium</div>
 						<ul>
 							<li class="price">$20.01/ Month</li>
@@ -187,6 +192,26 @@
 		<footer id="footer">
 			<div class="inner">
 				<h2>Contact us</h2>
+				<div class="column-50 fl-right">
+					<form id="contact-us-form">
+						<fieldset>
+							<div class="row">
+								<div class="input-control">
+									<input type="text" name="name" placeholder="Name">
+								</div
+								><div class="input-control">
+									<input type="email" name="email" placeholder="Email">
+								</div>
+							</div>
+							<div class="textarea-control">
+								<textarea placeholder="Message"></textarea>
+							</div>
+							<div class="input-control fl-right submit-control">
+								<input type="submit" name="button" value="Send" class="fl-right">
+							</div>
+						</fieldset>
+					</form>
+				</div>
 				<div class="column-50 fl-left">
 					<div class="content-wrapper">
 						<h3>Get in touch with us</h3>
@@ -211,26 +236,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="column-50 fl-right">
-					<form id="contact-us-form">
-						<fieldset>
-							<div class="row">
-								<div class="input-control">
-									<input type="text" name="name" placeholder="Name">
-								</div
-								><div class="input-control">
-									<input type="email" name="email" placeholder="Email">
-								</div>
-							</div>
-							<div class="textarea-control">
-								<textarea placeholder="Message"></textarea>
-							</div>
-							<div class="input-control fl-right">
-								<input type="submit" name="button" value="Send" class="fl-right">
-							</div>
-						</fieldset>
-					</form>
-				</div>
+
 			</div>
 		</footer>
 
