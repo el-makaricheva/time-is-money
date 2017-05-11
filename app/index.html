@@ -6,8 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
-		<script src="js/libs.min.js"></script>
-		<script src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="bower_components/swiper/dist/css/swiper.css"/>
 	</head>
 	<body>
 		<header id="header">
@@ -31,9 +30,38 @@
 		<main>
 			
 			<section id="banner">
-				<h1>This is a main heading</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing</p>
-				<button>Learn More</button>
+				<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+		            <div class="content">
+		            	<h1>This is a main heading</h1>
+		            	<p>Lorem Ipsum is simply dummy text<br />
+		            	of the printing</p>
+		            	<button>Learn More</button>
+		            </div>
+	            </div>
+	            <div class="swiper-slide">
+            		<div class="content">
+            			<h1>This is a main heading</h1>
+            			<p>Lorem Ipsum is simply dummy text of the printing</p>
+            			<button>Learn More</button>
+            		</div>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="content">
+	            		<h1>This is a main heading</h1>
+	            		<p>Lorem Ipsum is simply dummy text of the printing</p>
+	            		<button>Learn More</button>
+	            	</div>
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	        <!-- Add Arrows -->
+	        <div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div>
+		    </div>
+				
 			</section>
 			
 			<section id="team">
@@ -205,5 +233,9 @@
 				</div>
 			</div>
 		</footer>
+
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

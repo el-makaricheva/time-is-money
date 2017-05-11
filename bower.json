@@ -2,7 +2,8 @@
   "name": "timeismoney",
   "dependencies": {
     "jquery": "~2.1.4",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "swiper": "^3.4.2"
   },
   "description": "Test task",
   "main": "gulpfile.js",
